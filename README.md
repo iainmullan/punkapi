@@ -1,27 +1,22 @@
 # Punk API [![Build Status](https://travis-ci.org/samjbmason/punkapi.svg?branch=master)](https://travis-ci.org/samjbmason/punkapi)
 > Crowd Sourcing an API from BrewDog's hugely generous [DIY Dog](https://www.brewdog.com/diydog)
 
-## Update 2: I have created an issue to collect suggestions on ways to query the data in the API, have your [say here](https://github.com/samjbmason/punkapi/issues/18)!
-## Update: Over halfway there!
-After lots of contributions we are over halfway to completing all the data.
+## Update: It's Done!
+Thank you to everyone who contributed to the project. **What's next?**
+I'm nearly done with the API itself expect it to launch sometime around the 16th March.
 
-**Status: 130 of 215 completed**
+**Status: 215 of 215 completed**
 
 In the spirit of DIY & giving back I thought I would attempt to collect all the BrewDog Recipes from their DIY Dog pdf and create an api from it!
 
 ## What's the deal?
-If you head to the [`data`](data/) folder you will see all the recipes so far, I'm asking all you beer lovers to take 5 minutes to choose one of the recipes and convert it into a JSON file using the [`TEMPLATE.json`](TEMPLATE.json) file and submit it as a PR.
+If you head to the [`data`](data/) folder you will see all the recipes. If you find an issue with a recipe, please feel free to submit an [issue](https://github.com/samjbmason/punkapi/issues)
 
 ## Where can I find the recipes?
 Head over to BrewDog's DIY Dog [page to download the free PDF](https://www.brewdog.com/diydog)
 
-## The TEMPLATE.json is missing something?
-If people have any suggestions on information that is missing from the template please drop an issue or a PR.
-
 ## What do you plan to do with all this data?
 Once this is all done I will create a fully searchable API from the data and of course it will be open source and free to use for all your beer hackers out there.
-
-Below is a list of all the beers and the ones that have already been done:
 
 ## The Beers
 
@@ -125,30 +120,30 @@ Below is a list of all the beers and the ones that have already been done:
 - [x] DOG FIGHT (W/FLYING DOG)
 - [x] HOPPY CHRISTMAS
 - [x] BLACK EYED KING IMP
-- [ ] COCOA PSYCHO
-- [ ] NUNS WITH GUNS
-- [ ] CATHERINE'S PONY (W/BEAVERTOWN)
-- [ ] AMARILLO
-- [ ] LICHTENSTEIN PALE ALE
-- [ ] AB:14
-- [ ] IPA IS DEAD - DANA
-- [ ] IPA IS DEAD - EL DORADO
-- [ ] IPA IS DEAD - GOLDINGS
-- [ ] IPA IS DEAD - WAIMEA
-- [ ] VAGABOND PILSNER
-- [ ] AB:15
-- [ ] BRACKEN'S PORTER
-- [ ] FAKE LAGER
-- [ ] 10 HEADS HIGH
-- [ ] VICE BIER
-- [ ] MISSPENT YOUTH
-- [ ] #MASHTAG 2013
-- [ ] DOG B
-- [ ] ELECTRIC INDIA
-- [ ] DOG WIRED (W/8 WIRED)
-- [ ] HELLO MY NAME IS METTE-MARIT
-- [ ] EVERYDAY ANARCHY
-- [ ] BLACK JACQUES
+- [x] COCOA PSYCHO
+- [x] NUNS WITH GUNS
+- [x] CATHERINE'S PONY (W/BEAVERTOWN)
+- [x] AMARILLO
+- [x] LICHTENSTEIN PALE ALE
+- [x] AB:14
+- [x] IPA IS DEAD - DANA
+- [x] IPA IS DEAD - EL DORADO
+- [x] IPA IS DEAD - GOLDINGS
+- [x] IPA IS DEAD - WAIMEA
+- [x] VAGABOND PILSNER
+- [x] AB:15
+- [x] BRACKEN'S PORTER
+- [x] FAKE LAGER
+- [x] 10 HEADS HIGH
+- [x] VICE BIER
+- [x] MISSPENT YOUTH
+- [x] #MASHTAG 2013
+- [x] DOG B
+- [x] ELECTRIC INDIA
+- [x] DOG WIRED (W/8 WIRED)
+- [x] HELLO MY NAME IS METTE-MARIT
+- [x] EVERYDAY ANARCHY
+- [x] BLACK JACQUES
 - [x] BLITZ BERLINER WEISSE
 - [x] DOGMA
 - [x] HELLO MY NAME IS SONJA (W/EVIL TWIN)
@@ -171,74 +166,74 @@ Below is a list of all the beers and the ones that have already been done:
 - [x] BOURBON BABY
 - [x] AB:16
 - [x] COMET
-- [ ] HBC 366
-- [ ] KOHATU
-- [ ] HELLO MY NAME IS ZÉ (W/2CABEÇAS)
-- [ ] ALPHA POP
-- [ ] JASMINE IPA
-- [ ] #MASHTAG 2014
-- [ ] DOG C
-- [ ] HELLO MY NAME IS PÄIVI
-- [ ] VOTE SEPP
-- [ ] MAGIC STONE DOG (W/MAGIC ROCK & BREWING CO.)
-- [ ] RUSSIAN DOLL – BARLEY WINE
-- [ ] SUB HOP
-- [ ] U-BOAT (W/VICTORY BREWING)
-- [ ] AMERICAN WHEAT
-- [ ] CAP DOG (W/CAP BREWERY)
-- [ ] RUSSIAN DOLL – DOUBLE IPA
-- [ ] RUSSIAN DOLL – INDIA PALE ALE
-- [ ] RUSSIAN DOLL – PALE
-- [ ] THIS.IS.LAGER.
-- [ ] INDIA PALE WEIZEN (W/WEIHENSTEPHAN)
-- [ ] AB:17
-- [ ] KONNICHIWA KITSUNE
-- [ ] PROTOTYPE CHALLENGE - ALL DAY LONG
-- [ ] PROTOTYPE CHALLENGE - HOP FICTION
-- [ ] PROTOTYPE CHALLENGE - VAGABOND PALE ALE
-- [ ] BLACK EYED KING IMP - VIETNAMESE COFFEE EDITION
-- [ ] SHAREHOLDER BREW – BOUNTY HUNTER
-- [ ] RESTORATIVE BEVERAGE FOR INVALIDS AND CONVALESCENTS
-- [ ] STEREO WOLF STOUT
-- [ ] B-SIDES – SUNSHINE ON RYE
-- [ ] B-SIDES – BOWMAN’S BEARD
-- [ ] HELLO MY NAME IS LITTLE INGRID
-- [ ] IPA IS DEAD - CHINOOK
-- [ ] IPA IS DEAD - ELLA
-- [ ] IPA IS DEAD - MANDARINA BAVARIA
-- [ ] IPA IS DEAD - PIONEER
-- [ ] BORN TO DIE
-- [ ] B-SIDES – MELON AND CUCUMBER IPA
-- [ ] B-SIDES – SORACHI BITTER
+- [x] HBC 366
+- [x] KOHATU
+- [x] HELLO MY NAME IS ZÉ (W/2CABEÇAS)
+- [x] ALPHA POP
+- [x] JASMINE IPA
+- [x] #MASHTAG 2014
+- [x] DOG C
+- [x] HELLO MY NAME IS PÄIVI
+- [x] VOTE SEPP
+- [x] MAGIC STONE DOG (W/MAGIC ROCK & BREWING CO.)
+- [x] RUSSIAN DOLL – BARLEY WINE
+- [x] SUB HOP
+- [x] U-BOAT (W/VICTORY BREWING)
+- [x] AMERICAN WHEAT
+- [x] CAP DOG (W/CAP BREWERY)
+- [x] RUSSIAN DOLL – DOUBLE IPA
+- [x] RUSSIAN DOLL – INDIA PALE ALE
+- [x] RUSSIAN DOLL – PALE
+- [x] THIS.IS.LAGER.
+- [x] INDIA PALE WEIZEN (W/WEIHENSTEPHAN)
+- [x] AB:17
+- [x] KONNICHIWA KITSUNE
+- [x] PROTOTYPE CHALLENGE - ALL DAY LONG
+- [x] PROTOTYPE CHALLENGE - HOP FICTION
+- [x] PROTOTYPE CHALLENGE - VAGABOND PALE ALE
+- [x] BLACK EYED KING IMP - VIETNAMESE COFFEE EDITION
+- [x] SHAREHOLDER BREW – BOUNTY HUNTER
+- [x] RESTORATIVE BEVERAGE FOR INVALIDS AND CONVALESCENTS
+- [x] STEREO WOLF STOUT
+- [x] B-SIDES – SUNSHINE ON RYE
+- [x] B-SIDES – BOWMAN’S BEARD
+- [x] HELLO MY NAME IS LITTLE INGRID
+- [x] IPA IS DEAD - CHINOOK
+- [x] IPA IS DEAD - ELLA
+- [x] IPA IS DEAD - MANDARINA BAVARIA
+- [x] IPA IS DEAD - PIONEER
+- [x] BORN TO DIE
+- [x] B-SIDES – MELON AND CUCUMBER IPA
+- [x] B-SIDES – SORACHI BITTER
 - [x] B-SIDES – TRUFFLE AND CHOCOLATE STOUT
-- [ ] B-SIDES – HOPPY SAISON
-- [ ] B-SIDES – WHISKY SOUR
-- [ ] B-SIDES – SPICED CHERRY SOUR
-- [ ] B-SIDES – DEAF MERMAID
-- [ ] #MASHTAG 2015
+- [x] B-SIDES – HOPPY SAISON
+- [x] B-SIDES – WHISKY SOUR
+- [x] B-SIDES – SPICED CHERRY SOUR
+- [x] B-SIDES – DEAF MERMAID
+- [x] #MASHTAG 2015
 - [x] DOG D
-- [ ] HINTERLAND
-- [ ] PEACH THERAPY
-- [ ] HELLO MY NAME IS HOLY MOOSE
-- [ ] LIZARD BRIDE
-- [ ] B-SIDES – MANGO GOSE
-- [ ] CANDY KAISER
-- [ ] PUMPKIN KING
+- [x] HINTERLAND
+- [x] PEACH THERAPY
+- [x] HELLO MY NAME IS HOLY MOOSE
+- [x] LIZARD BRIDE
+- [x] B-SIDES – MANGO GOSE
+- [x] CANDY KAISER
+- [x] PUMPKIN KING
 - [x] B-SIDES – BABY SAISON
 - [x] B-SIDES – MORAG'S MOJITO
 - [x] B-SIDES – ORANGE BLOSSOM
 - [x] DOODLEBUG
-- [ ] NO LABEL
-- [ ] B-SIDES – RHUBARB SAISON
-- [ ] INDIA SESSION LAGER
-- [ ] PROTOTYPE CHALLENGE
-- [ ] HOPPED-UP BROWN ALE PROTOTYPE CHALLENGE
+- [x] NO LABEL
+- [x] B-SIDES – RHUBARB SAISON
+- [x] INDIA SESSION LAGER PROTOTYPE CHALLENGE
+- [x] HOPPED-UP BROWN ALE PROTOTYPE CHALLENGE
 - [x] ALBINO SQUID ASSASSIN
-- [ ] B-SIDES – BERLINER WEISSE WITH RASPBERRIES AND RHUBARB
-- [ ] ARCADE NATION
-- [ ] ELVIS JUICE V2.0
-- [ ] B-SIDES – CASCADE, CENTENNIAL & WILLAMETTE IPA
-- [ ] B-SIDES – SINGLE HOP ENIGMA IPA
+- [x] B-SIDES – BERLINER WEISSE WITH RASPBERRIES AND RHUBARB
+- [x] ARCADE NATION
+- [x] ELVIS JUICE V2.0
+- [x] BERLINER WEISSE WITH YUZU
+- [x] B-SIDES – CASCADE, CENTENNIAL & WILLAMETTE IPA
+- [x] B-SIDES – SINGLE HOP ENIGMA IPA
 - [x] JET BLACK HEART
 
 ## License
